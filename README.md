@@ -1,6 +1,14 @@
 Sublime-CoolFormat
 ==========================================
 
+IMPORTANT
+-----------
+This is a clone of the original [CoolFormat](https://github.com/akof1314/Sublime-CoolFormat) plugin repository by [akof1314](https://github.com/akof1314).
+Since the original repository has not been maintained, I cloned the repository and added support for OSX ARM64 support. I may try to fix other issues, and implement a few new ones.
+
+Using old plugin name since I was advised to do so, for details please see https://github.com/wbond/package_control_channel/pull/9182.
+
+
 Description
 -----------
 
@@ -28,14 +36,14 @@ The advantage of using Package Control is that it will keep Sublime-CoolFormat u
 
 **Without Git:**
 
-[Download](https://github.com/akof1314/Sublime-CoolFormat) the latest source code,
+[Download](https://github.com/edokan/Sublime-CoolFormat) the latest source code,
 and extract it to the Packages directory.
 
 **With Git:**
 
 Type the following command in your Sublime Text 2 or Sublime Text 3 Packages directory:
 
-`git clone https://github.com/akof1314/Sublime-CoolFormat.git`
+`git clone https://github.com/edokan/Sublime-CoolFormat.git`
 
 The "Packages" directory is located at:
 
@@ -50,6 +58,13 @@ The "Packages" directory is located at:
 * **Windows**: `%APPDATA%\Sublime Text 3\Packages`
 * **Linux**: `~/.config/sublime-text-3/Packages/`
 * **OS X**: `~/Library/Application Support/Sublime Text 3/Packages/`
+
+
+**Sublime Text 4**
+
+* **Windows**: `%APPDATA%\Sublime Text 4\Packages`
+* **Linux**: `~/.config/sublime-text-4/Packages/`
+* **OS X**: `~/Library/Application Support/Sublime Text 4/Packages/`
 
 Usage
 -----
